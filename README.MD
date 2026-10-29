@@ -1,0 +1,1 @@
+This repo builds an assistant capable of completing tasks and automating processes and messages to send out to specific peopel as to not get caught behind on work and automate seeing emails.
