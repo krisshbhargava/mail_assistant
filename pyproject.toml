@@ -1,0 +1,17 @@
+[project]
+name = "mail-assistant"
+version = "0.1.0"
+description = "This repo builds an assistant capable of completing tasks and automating processes and messages to send out to specific peopel as to not get caught behind on work and automate seeing emails."
+readme = "README.md"
+authors = [
+    { name = "Krissh Bhargava", email = "49103625+krisshbhargava@users.noreply.github.com" }
+]
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+mail-assistant = "mail_assistant:main"
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"
